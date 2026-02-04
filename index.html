@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tech-Focused Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+    <div class="container">
+        <a class="navbar-brand" href="#"><i class="fa-solid fa-computer"></i> TechSite</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ms-auto align-items-center">
+                <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero text-center position-relative">
+    <img src="https://source.unsplash.com/1200x600/?computer,technology" alt="Hero Banner" class="img-fluid w-100" style="max-height:600px; object-fit:cover;">
+    <div class="hero-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-white">
+        <h1>Build Tech-Focused Websites</h1>
+        <p>HTML • CSS • JavaScript • Bootstrap • Responsive Design</p>
+        <div class="mt-4">
+            <a class="btn btn-primary btn-lg me-2" href="register.html"><i class="fa-solid fa-user-plus"></i> Register</a>
+            <a class="btn btn-outline-light btn-lg" href="login.html"><i class="fa-solid fa-right-to-bracket"></i> Login</a>
+        </div>
+    </div>
+</section>
+
+<!-- About Us Section -->
+<section id="about" class="py-5">
+    <div class="container">
+        <h2 class="section-title text-center mb-5">About Us</h2>
+        <div class="row align-items-center">
+            <!-- Image -->
+            <div class="col-md-6 mb-4">
+                <div class="about-img position-relative">
+                    <img src="https://source.unsplash.com/500x500/?computer,office,team" class="img-fluid rounded shadow" alt="About Us">
+                    <span class="about-icon position-absolute top-0 start-0 translate-middle bg-primary text-white p-3 rounded-circle">
+                        <i class="fa-solid fa-lightbulb fa-2x"></i>
+                    </span>
+                </div>
+            </div>
+            <!-- Text -->
+            <div class="col-md-6">
+                <p class="lead">We are a modern web development agency specializing in tech-focused solutions. We deliver responsive, fast, and user-friendly websites for businesses, startups, and individuals seeking a strong online presence.</p>
+                <div class="row g-3 mt-4">
+                    <div class="col-sm-6">
+                        <div class="info-card p-3 rounded shadow-sm text-center h-100">
+                            <i class="fa-solid fa-rocket fa-2x text-primary mb-2"></i>
+                            <h5>Fast Delivery</h5>
+                            <p>Quick turnaround without compromising quality.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="info-card p-3 rounded shadow-sm text-center h-100">
+                            <i class="fa-solid fa-shield-halved fa-2x text-primary mb-2"></i>
+                            <h5>Secure & Reliable</h5>
+                            <p>Your website is safe, reliable, and scalable.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="section-title text-center mb-5">Our Services</h2>
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="service-card text-center bg-white">
+                    <img src="https://source.unsplash.com/400x400/?computer,design" alt="Web Design" class="img-fluid rounded shadow mb-3">
+                    <h5>Web Design</h5>
+                    <p>Modern UI/UX designs that look great on all devices.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="service-card text-center bg-white">
+                    <img src="https://source.unsplash.com/400x400/?computer,coding" alt="Web Development" class="img-fluid rounded shadow mb-3">
+                    <h5>Web Development</h5>
+                    <p>Fast, scalable, and clean frontend development.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="service-card text-center bg-white">
+                    <img src="https://source.unsplash.com/400x400/?computer,learning" alt="Training" class="img-fluid rounded shadow mb-3">
+                    <h5>Training</h5>
+                    <p>Learn web development with real-world examples.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Contact Us Section -->
+<section id="contact" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="section-title text-center mb-5">Contact Us</h2>
+        <div class="row justify-content-center">
+            <!-- Contact Info -->
+            <div class="col-lg-5 mb-4">
+                <div class="contact-info p-4 rounded shadow-sm bg-white">
+                    <h5 class="mb-3"><i class="fa-solid fa-phone text-primary me-2"></i> Call Us</h5>
+                    <p>+251 900 123 456</p>
+                    <h5 class="mb-3 mt-4"><i class="fa-solid fa-envelope text-primary me-2"></i> Email</h5>
+                    <p>info@techsite.com</p>
+                    <h5 class="mb-3 mt-4"><i class="fa-solid fa-location-dot text-primary me-2"></i> Address</h5>
+                    <p>Addis Ababa, Ethiopia</p>
+                </div>
+            </div>
+            <!-- Contact Form -->
+            <div class="col-lg-6">
+                <div class="auth-container p-4 bg-white rounded shadow-sm">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label"><i class="fa-solid fa-user"></i> Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label"><i class="fa-solid fa-envelope"></i> Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label"><i class="fa-solid fa-message"></i> Message</label>
+                            <textarea id="message" class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100"><i class="fa-solid fa-paper-plane me-2"></i> Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center">
+    <div class="container">
+        <p class="mb-1">© 2026 TechSite. All Rights Reserved.</p>
+        <div>
+            <a href="#"><i class="fab fa-facebook me-2"></i></a>
+            <a href="#"><i class="fab fa-twitter me-2"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
